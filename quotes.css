@@ -1,0 +1,19 @@
+span {
+	font-size: 2.0em;
+}
+
+p {
+	font-family: source sans pro;
+	font-size: 18px;
+	width: 80%;
+	max-width: 1000px;
+}
+
+div {
+	margin: 30px;
+	margin-bottom: 50px;
+}
+
+.author {
+	font-size: 1.1em;
+}

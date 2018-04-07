@@ -1,0 +1,27 @@
+p {
+	width: 80%;
+	max-width: 1000px;
+	margin: 20px 10%;
+	font-family: source sans pro;
+	font-size: 18px;
+}
+
+img {
+	
+	margin: 40px 10%;
+}
+
+h1 {
+	margin: 10px 10%;
+	font-family: raleway;
+}
+
+.footer {
+	float: left;
+	margin: 200px 0px 20px;
+	text-decoration: none;
+	font-family: megrim;
+	font-weight: bold;
+	font-size: 23px;
+	color: #FA4646;
+}

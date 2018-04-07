@@ -1,0 +1,69 @@
+/* Need to find out how to make margins adjust so that when this web page
+   is used in other sized monitors it has the same layout. The main posts should be mostly centered and should adjust their width to fill 70%(?) of the page and the right column should be 20%(?) of the page */
+
+body {
+	background: #FCFCFA;
+	font-family: proza libre;
+	color: #061530;
+}
+
+h2 {
+	color: #2c3e50;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 2.0rem;
+}
+
+div {
+	float: left;
+}
+
+hr {
+	color: #E4E8F0;
+}
+
+a {
+	font-family: PT Sans Caption;
+	display: block;
+	text-decoration: none;
+}
+
+.body {
+	max-width: 700px;	/*make it 700px at a maximum*/
+	width: 80%;			/*make the width 80% of parent element*/
+	border: solid 20px #9AFCB8;
+	margin: 20px 100px 20px 200px;
+	padding: 10px 20px;	
+}
+
+.date {
+	color: #FA4646;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;		/*relative to root element*/
+}
+
+.blockquote {
+	border-left: 4px solid #9AFCB8;
+	padding-left: 5px;
+}
+
+.post {
+	margin-bottom: 40px;
+}
+
+.name {
+	font-family: megrim;
+	font-weight: bold;
+	font-size: 23px;
+	/* text-transform: uppercase; */
+	/* border-bottom: 2px solid rgb(230,230,230); */
+	/* padding-bottom: 20px; */
+	color: #FA4646;
+}
+
+.rightcolumn {
+	margin: 20px 20px;
+	text-align: right;
+}
+
+
