@@ -1,12 +1,12 @@
 img {
 	width: 30%;
-	height: 40vh;
+	height: auto;
 	float: left;
 	margin: 1.66%
 }
 
 .name {
-	font-family: raleway;
+	font-family: montserrat;
 	font-weight: 800;
 	margin: 1.66%;
 	font-size: 23px;
@@ -14,6 +14,7 @@ img {
 	border-bottom: 2px solid rgb(230,230,230);
 	padding-bottom: 20px;
 	color: rgb(230,230,230);
+	letter-spacing: 0.3rem;
 }
 
 p {

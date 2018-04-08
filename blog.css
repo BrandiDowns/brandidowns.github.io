@@ -52,8 +52,8 @@ a {
 }
 
 .name {
-	font-family: megrim;
-	font-weight: bold;
+	font-family: montserrat;
+	/* font-weight: bold; */
 	font-size: 23px;
 	/* text-transform: uppercase; */
 	/* border-bottom: 2px solid rgb(230,230,230); */
