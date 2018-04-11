@@ -28,6 +28,10 @@ a {
 	text-decoration: none;
 }
 
+span {
+	font-style: italic;
+}
+
 .body {
 	max-width: 700px;	/*make it 700px at a maximum*/
 	width: 80%;			/*make the width 80% of parent element*/
