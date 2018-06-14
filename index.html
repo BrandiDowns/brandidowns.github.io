@@ -3,18 +3,80 @@
 <head>
 	<title>main</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Inconsolata|Lora|Padauk|Poppins|Roboto|Slabo+27px|Work+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
-<body>		
-	<p><a href="aboutme.html">About Me</a></p>
-	<p><a href="gps.html">GPS</a></p>
-	<p><a href="projects.html">Current projects</a></p>
-	<p><a href="portfolio.html">Writing portfolio</a></p>
-	<p><a href="quotes.html">Quotes</a></p>
-	<p><a href="to do list.html">To Do List web app</a></p>
-	<p><a href="https://www.greenvillage.blog/">Green Village</a></p>
-	<p><a href="photoGrid.html">Travels</a></p>
-	<p><a href="blog.html">Blog</a></p>
-	<p><a href="vision.html">Vision Collage</a></p>
+<body>	
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="http://brandidowns.github.io">Brandi Downs</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="gps.html">GPS</a></li>
+				<li><a href="ubloxPi.html">u-blox and Raspberry Pi</a></li>
+				<li><a href="photoGrid.html">Travels</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="aboutme.html">About Me</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12"><img src="aerial_ocean.png" class="img-responsive" alt="Responsive image"></div>
+			<!-- Photo by Josh Sorenson from Pexels -->
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="jumbotron">
+					<h1>Projects</h1>
+					<div class="btn-group">
+						<button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Choose <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="gps.html">GPS</a></li>
+							<li><a href="ubloxPi.html">u-blox and Raspberry Pi</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="jumbotron">
+					<h1>Travels</h1>
+					<p><a class="btn btn-success btn-lg" href="photoGrid.html" role="button">Go</a></p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="jumbotron">
+					<h1>About</h1>
+					<p><a class="btn btn-success btn-lg" href="aboutme.html" role="button">Go</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	
 </body>
 </html>
